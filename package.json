@@ -1,0 +1,46 @@
+{
+  "name": "terminal-app",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Cristoval Martinez | cristovalamartinez@gmail.com",
+  "scripts": {
+    "dev": "next dev -p 1233",
+    "build": "next build",
+    "start": "next start -p 1233",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@react-email/button": "0.0.13",
+    "@react-email/html": "0.0.7",
+    "@react-email/render": "^0.0.10",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/nodemailer": "^6.4.14",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.0.4",
+    "nodemailer": "^6.9.8",
+    "react": "^18",
+    "react-cookie": "^7.0.1",
+    "react-dom": "^18",
+    "react-email": "1.10.0",
+    "react-hook-form": "^7.49.3",
+    "react-html-email": "^3.0.0",
+    "react-icons": "^5.0.1",
+    "sass": "^1.69.7",
+    "scss": "^0.2.4",
+    "stripe": "^14.12.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

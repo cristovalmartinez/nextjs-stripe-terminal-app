@@ -1,0 +1,16 @@
+.home {
+  @apply flex min-h-screen flex-col items-center justify-between pt-[2rem] bg-blue-500 bg-opacity-[2%];
+  &__container {
+    @apply bg-blue-300 border shadow-md px-4 max-w-3xl bg-opacity-[10%] pb-[3rem] md:pb-[4rem] pt-[2rem] rounded-lg flex flex-col items-center justify-center w-full;
+    > h1 {
+      @apply w-full uppercase font-semibold;
+    }
+
+    > form > button {
+      @apply bg-black rounded-xl text-white font-semibold py-3 px-5;
+    }
+  }
+  &__input {
+    @apply border-2 border-gray-200 rounded p-3 mt-[5rem] appearance-none outline-none shadow-sm;
+  }
+}

@@ -1,0 +1,6 @@
+.payment-screen {
+  @apply w-full;
+  > h1 {
+    @apply text-gray-800 font-semibold text-center text-[1rem] md:text-[1.5rem];
+  }
+}
